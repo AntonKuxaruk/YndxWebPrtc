@@ -102,5 +102,7 @@ body, input, button, span, span::before, ul {
   }
   
   .logo:hover {
-  
+    background-image: url(https://pictures.s3.yandex.net/ya.svg);
   }
+
+  
