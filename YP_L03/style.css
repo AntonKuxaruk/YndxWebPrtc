@@ -2,7 +2,8 @@ div {
   
     height: 100vh;
    
-    background-color: green;
+    background-color: #4682B4;
+    color: white;
 
     text-align: center;
 }
