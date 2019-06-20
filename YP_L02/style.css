@@ -1,0 +1,46 @@
+h1 {
+    font-size: 90px;
+    font-family: 'Playfair Display';
+  }
+
+h2 {
+      font-family: 'Pacifico';
+      font-size: 70px;
+      color: red;
+  }
+
+h3 {
+      font-family: 'Prosto One';
+      font-size: 50px;
+   }
+
+h4 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 40px;
+}
+
+h5 {
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Arial';
+   }
+
+ p {
+    font-family: 'PT Mono';
+    font-size: 20px;
+ }   
+
+  a {
+    color: steelblue;
+    font-size: 20px;
+    
+  }
+
+  div {
+    text-align: center;
+  }
+
+  img {
+    width: 512px;
+  }
+
