@@ -1,12 +1,14 @@
 h1 {
     font-size: 90px;
     font-family: 'Playfair Display';
+    line-height: 55px;
   }
 
 h2 {
       font-family: 'Pacifico';
       font-size: 70px;
       color: red;
+      line-height: 70px;
   }
 
 h3 {
@@ -28,6 +30,7 @@ h5 {
  p {
     font-family: 'PT Mono';
     font-size: 20px;
+    text-align: right
  }   
 
   a {
