@@ -1,7 +1,9 @@
 div {
   
     height: 100vh;
-   
+    background-image: url(https://pictures.s3.yandex.net/background.jpg);
+    background-size: cover;
+    background-position: center bottom;
     background-color: #4682B4;
     color: white;
 
