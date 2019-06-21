@@ -1,0 +1,190 @@
+For CMDs: FW Version, Get SN, Ping Device
+
+736T965054
+13:31:22.461 OUT: 5669564f74656368320029000000dea0
+13:31:22.461 IN: 5669564f746563683200290b0000502f
+13:31:29.519 OUT: 5669564f7465636832001201000018a5
+13:31:29.520 IN: 5669564f746563683200120b000062d9
+13:31:31.862 OUT: 5669564f74656368320018010000b3cd
+13:31:31.864 IN: 5669564f746563683200180b00000a72
++
+Get Firmware Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Get Serial Number Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Ping Device failed Error Code: 0xA: err response or data
+
+737T994972
+13:35:32.493 OUT: 5669564f74656368320029000000dea0
+13:35:32.494 IN: 5669564f746563683200290b0000502f
+13:35:35.044 OUT: 5669564f7465636832001201000018a5
+13:35:35.045 IN: 5669564f746563683200120b000062d9
+13:35:37.346 OUT: 5669564f74656368320018010000b3cd
+13:35:37.347 IN: 5669564f746563683200180b00000a72
++
+Get Firmware Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Get Serial Number Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Ping Device failed Error Code: 0xA: err response or data
+
+712T382720
+UDemo No Response.
+
+712T382681
+UDemo No Response.
+
+833T003032
+UDemo No Response.
+
+804T376260
+Get Firmware Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Get Serial Number Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Ping Device failed Error Code: 0xA: err response or data
+
+806T433934
+Get Firmware Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Get Serial Number Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Ping Device failed Error Code: 0xA: err response or data
+Interface Control Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+
+737T994995
+Get Firmware Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Get Serial Number Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Ping Device failed Error Code: 0xA: err response or data
+
+841T170253
+UDemo No Response.
+
+818T687563
+UDemo No Response.
+
+833T004139
+Get Firmware Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Get Serial Number Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Ping Device failed Error Code: 0xA: err response or data
+
+737T996868
+Get Firmware Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Get Serial Number Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Ping Device failed Error Code: 0xA: err response or data
+
+737T997254
+UDemo No Response.
+
+901T383997
+UDemo No Response.
+
+810T533650
+Get Firmware Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Get Serial Number Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Ping Device failed Error Code: 0xA: err response or data
+
+822T776041
+UDemo No Response.
+
+737T997241
+Get Firmware Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Get Serial Number Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Ping Device failed Error Code: 0xA: err response or data
+
+810T532047
+UDemo No Response.
+
+712T382676
+UDemo No Response.
+
+841T170336
+UDemo No Response.
+
+810T532232
+UDemo No Response.
+
+712T382779
+UDemo No Response.
+
+806T433213
+UDemo No Response.
+
+816T631039
+UDemo No Response.
+
+810T532230
+UDemo No Response.
+
+816T629294
+UDemo No Response.
+
+818T688090
+UDemo No Response.
+
+737T996987
+UDemo No Response.
+
+816T629274
+UDemo No Response.
+
+810T533093
+UDemo No Response.
+
+816T629277
+UDemo No Response.
+
+752T285245
+Get Firmware Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Get Serial Number Fail Error Code: 0xD0B: Command not Allowed (Passthough Mode May Be On)
+Ping Device failed Error Code: 0xA: err response or data
+
+737T993963
+UDemo No Response.
+
+806T432727
+UDemo No Response.
+
+737T991943
+UDemo No Response.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
