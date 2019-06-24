@@ -1,3 +1,7 @@
+body {
+    font-family: 'Fira Sans'
+
+}
 div {
   
     height: 100vh;
@@ -13,9 +17,12 @@ div {
 h1 {
     font-size: 55px;
     line-height: 240px;
+    font-family: 'Anonymous Pro';
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 25px;
     line-height: 30px;
+    letter-spacing: 0.5px
 }
