@@ -34,5 +34,9 @@ h1 {
 h2 {
     font-size: 25px;
     line-height: 30px;
-    letter-spacing: 0.5px
+    letter-spacing: 0.5px;
+    width: 630px;
+    margin-top: 46px;
+    margin-left: auto;
+    margin-right: auto;
 }
