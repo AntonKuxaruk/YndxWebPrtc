@@ -2,7 +2,7 @@ body {
     font-family: 'Fira Sans'
 
 }
-div {
+.header {
   
     height: 100vh;
     background-image: url(https://pictures.s3.yandex.net/background.jpg);
@@ -12,6 +12,10 @@ div {
     color: white;
 
     text-align: center;
+}
+.card {
+    height: 420px;
+    width: 420px;
 }
 
 h1 {
