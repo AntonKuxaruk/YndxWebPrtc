@@ -17,7 +17,13 @@ body {
     height: 420px;
     width: 420px;
 }
-
+.bordered {
+    width: 420px;
+    height: 420px;
+    border-width: 5px; 
+    border-style: solid; 
+    border-color: #ff3333;
+}
 h1 {
     font-size: 55px;
     line-height: 240px;
