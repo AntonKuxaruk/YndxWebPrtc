@@ -79,6 +79,24 @@ margin-right: 0
     margin: auto auto 90px auto
 }
 
+.footer{
+    height: 100px;
+    background: black;
+    box-sizing: border-box;     
+    padding-top: 30px;
+}
+
+.logo {
+    width: 148px;
+    height: 38px;
+    background-image: url(https://pictures.s3.yandex.net/logotype.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    
+}
+
 h1 {
     font-size: 55px;
     line-height: 240px;
