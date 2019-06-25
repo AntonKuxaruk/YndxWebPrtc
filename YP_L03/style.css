@@ -21,7 +21,8 @@ body {
     width: 420px;
 }
 
-.bordered {
+.module {
+    background-image: url('https://pictures.s3.yandex.net/grid.jpg');
     width: 420px;
     height: 420px;
     border-width: 5px;
@@ -32,6 +33,20 @@ body {
 .image {
     height: 420px;
     width: 420px;
+    background-size: cover;
+    background-position: center;
+}
+
+.near{
+    background-image: url('https://pictures.s3.yandex.net/proximity.jpg');
+}
+
+.fonts{
+    background-image: url('https://pictures.s3.yandex.net/type.jpg');
+}
+
+.colors {
+   background-image: url('https://pictures.s3.yandex.net/color.jpg');
 }
 
 h1 {
