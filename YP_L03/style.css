@@ -11,12 +11,13 @@ body {
     background-position: center bottom;
     background-color: #4682B4;
     color: white;
-
     text-align: center;
+    padding-top: 120px;
 }
 
 .card {
-    height: 420px;
+    min-height: 420px;
+    
     width: 420px;
 }
 
@@ -26,6 +27,11 @@ body {
     border-width: 5px;
     border-style: solid;
     border-color: #ff3333;
+}
+
+.image {
+    height: 420px;
+    width: 420px;
 }
 
 h1 {
@@ -40,7 +46,5 @@ h2 {
     line-height: 30px;
     letter-spacing: 0.5px;
     width: 630px;
-    margin-top: 46px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 46px auto 0px;
 }
