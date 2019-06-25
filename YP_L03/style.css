@@ -66,6 +66,19 @@ margin-right: 0
     margin-right: 0
 }
 
+.card h3 {
+    font-size: 35px;
+    font-family : 'Anonymous Pro';
+    font-weight: bold;
+    margin: 44px, auto, 30px;
+}
+
+.card p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: auto auto 90px auto
+}
+
 h1 {
     font-size: 55px;
     line-height: 240px;
