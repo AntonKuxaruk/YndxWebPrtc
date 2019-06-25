@@ -16,9 +16,12 @@ body {
 }
 
 .card {
-    min-height: 420px;
-    
+    min-height: 420px;    
     width: 420px;
+    display: inline-block;
+    vertical-align: top;
+    
+    margin-right: 65px;
 }
 
 .module {
@@ -35,6 +38,7 @@ body {
     width: 420px;
     background-size: cover;
     background-position: center;
+    box-sizing: border-box;
 }
 
 .near{
@@ -47,6 +51,19 @@ body {
 
 .colors {
    background-image: url('https://pictures.s3.yandex.net/color.jpg');
+}
+
+.rules {
+    width: 910px;
+    margin: 90px auto 0px;
+}
+
+.module-card {
+margin-right: 0
+}
+
+.colors-card {
+    margin-right: 0
 }
 
 h1 {
