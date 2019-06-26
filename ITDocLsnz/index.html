@@ -17,15 +17,54 @@
 <body>
     <header>
         <h1>This is the Head of the Site</h1>
-        <nav>
-            <a href="a">Link #1 </a> |
-            <a href="a">Link #2 </a> |
-            <a href="a">Link #3 </a> |
-            <a href="a">Link #4 </a> |
-            <a href="a">Link #5 </a>
 
+        <br />
+        <!-- <section>
+            <nav>
+                <a href="a">Link #1 </a> |
+                <a href="a">Link #2 </a> |
+                <a href="a">Link #3 </a> |
+                <a href="a">Link #4 </a> |
+                <a href="a">Link #5 </a>
+            </nav>
+        </section> -->
+
+
+        <nav>
+            <menu>
+                <li><a href="#link1">link 1</a></li>
+                <li><a href="#link2">link 2</a></li>
+                <li><a href="#link3">link 3</a></li>
+                <li><a href="#link4">link 4</a></li>
+                <li><a href="https://лантер.рф">ЛАНТЕР</a></li>
+            </menu>
         </nav>
+
+
     </header>
+
+    <section>
+        <!-- <dl>
+            <dt>Key</dt>
+            <dd>Value</dd>
+        </dl>
+
+        <br />
+        <ol>
+            <li>Link #1</li>
+            <li>Link #2</li>
+            <li>Link #3</li>
+            <li>Link #4</li>
+            <li>Link #5</li>
+        </ol> -->
+        <br />
+        <!--  <ul type="circle">
+            <li>Text #1</li>
+            <li>Text #2</li>
+            <li>Text #3</li>
+        </ul> -->
+    </section>
+    <br />
     <section>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sapiente totam, consequuntur sed
             quaerat itaque quidem expedita quam sit corrupti veritatis, porro animi ipsam consectetur sint vero
@@ -33,6 +72,28 @@
 
         <audio src="muzic.mp3" controls></audio>
     </section>
+
+    <section>
+        <video width="640" height="480" controls poster="img/ps.jpg">
+            <source src="img/video.mp4" type="video/mp4">
+        </video>
+        <img src="img/ps.jpg" alt="Alx" width="50px" height="50px">
+    </section>
+
+    <section>
+        <canvas id="smile" width="100" height="100"></canvas>
+    </section>
+
+    <img src="img/ps.jpg" alt="Alx" width="150px" height="150px" usemap="#Navigation">
+
+    <map name="Navigation">
+        <area shape="rect" coords="0,0,25,25" href="#1-rect" alt="Link 1">
+        <area shape="circle" coords="50,50,25" href="#2-circle" alt="circle link">
+    </map>
+
+
+
+
     <footer>
         <h1>It Doc works!</h1>
         <p>Contacts: 68726871671</p>
@@ -42,5 +103,21 @@
 
 
 </body>
+
+<script>
+    window.onload = function () {
+        var drCanv = document.getElementById('smile');
+        if (drCanv && drCanv.getContext) {
+            var ctx = drCanv.getContext('2d');
+            ctx.strokeStyle = "#000";
+            ctx.fillStyle = "#fc0";
+            ctx.beginPath();
+            ctx.arc(100, 100, 50, 0, Math.PI * 2, true);
+            ctx.closePath();
+            ctx.stroke();
+            ctx.fill();
+        }
+    }
+</script>
 
 </html>
