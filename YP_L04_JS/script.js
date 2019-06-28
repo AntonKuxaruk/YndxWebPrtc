@@ -12,26 +12,55 @@ var red = prompt('Введите насыщенность красного в в
 var green = prompt('Введите насыщенность зелёного в виде числа от 0 до 255', '255')
 var blue = prompt('Введите насыщенность синего в виде числа от 0 до 255', '255')
 
-red = Number(red)
-blue = Number(blue)
+var red
+var green
+var blue
 
-if(isNaN(red)) {
-    red = prompt('В качестве значения насыщенности красного вы ввели не число. Пожалуйста, введите число от 0 до 255.', '255')
-    red = Number(red)
+var red
+var green
+var blue
+
+red = checkInput(red)
+  //prompt('Введите насыщенность красного в виде числа от 0 до 255', '255')
+green = checkInput(green)
+//prompt('Введите насыщенность зелёного в виде числа от 0 до 255', '0')
+blue = checkInput(blue)
+//prompt('Введите насыщенность синего в виде числа от 0 до 255', '0')
+
+function checkInput(i) {
+
+    i = Number(i);
+
+    if(isNaN(i)) {
+        i = prompt('В качестве значения насыщенности цвета вы ввели не число. Пожалуйста, введите число от 0 до 255.', '255')
+        i = Number(i)
+    } else if (i < 0) {
+        i = 0
+        console.log('Наименьшее из возможных чисел — ноль, мы подставили значение 0.')
+    } else if (i > 255) {
+        i = 255
+        console.log('Наибольшее возможное число — 255, мы подставили его.')
+      }
+    else {
+        console.log('Вы определили насыщенность цвета как ' + i)
+    }
+  return i
 }
 
-if(isNaN(green)) {
-    green = prompt('В качестве значения насыщенности зелёного вы ввели не число. Пожалуйста, введите число от 0 до 255.', '255')
-    green = Number(green)
+//checkInput(red);
+//checkInput(green);
+//checkInput(blue);
+
+function makeColorString(r,g,b) { 
+  var bgValue = "rgb(" + r + ", " + g + ", " + b + ")"
+  return bgValue
 }
 
-if(isNaN(blue)) {
-    blue = prompt('В качестве значения насыщенности синего вы ввели не число. Пожалуйста, введите число от 0 до 255.', '255')
-    blue = Number(blue)
-}
+//checkInput(i)
+//makeColorString(red, green, blue);
+document.write(makeColorString(red, green, blue));
 
-console.log(red + blue)
-console.log(red+green+blue)
+
 
 
 
