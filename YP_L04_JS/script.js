@@ -59,9 +59,12 @@ function makeColorString(r,g,b) {
 //checkInput(i)
 //makeColorString(red, green, blue);
 document.write(makeColorString(red, green, blue));
+console.log(document.head)
 
-
-
+document.body.style.backgroundColor = makeColorString(red, green, blue);
+document.body.style.fontSize = "100px";
+document.body.style.fontFamily = 'Anonymous Pro';
+document.body.style.color = 'white';
 
 
 
