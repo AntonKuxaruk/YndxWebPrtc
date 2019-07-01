@@ -1,0 +1,65 @@
+body {
+    background-image: url(img/ycrab.png);
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+div {
+    border: 1px solid black;
+    padding: 5px 15 px;
+
+}
+
+h4 {
+    text-align: center;
+}
+
+.header {
+    border-radius: 10px 10px 0 0;
+    margin-top: 20px;
+    background-image: url(img/ps.jpg);
+    min-height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.86)
+}
+.sidebar{
+    background: #dedede;
+    float: left;
+    margin-right: 30px;
+    max-width: 200px;
+    min-width: 150px;
+
+}
+.sidebar1{
+    background: #cb9c00;
+    float: right;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 200px;
+    text-align: justify;
+
+}
+.container{
+    background: #0089ff;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.86);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.footer{
+    font-weight: bold;
+    color: #fff;
+    background: #505050;
+    min-height: 30px;
+    line-height: 30px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.86);
+    text-align: center;
+
+}
