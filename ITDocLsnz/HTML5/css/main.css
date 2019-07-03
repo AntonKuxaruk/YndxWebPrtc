@@ -1,0 +1,91 @@
+nav {
+background: #ff4411;
+border-radius: 5px;
+height: 50px;
+line-height: 50px;
+max-width: 900px;
+
+}
+
+menu{
+    list-style: none;
+}
+
+menu li {
+    display: inline-block;
+    padding: 0 25px;
+    background: #00b0e5;
+    height: 50px;
+    margin: 0 -2px;
+    border-right: solid 2px black;
+}
+
+menu li:first-child{
+    border-left: solid 2px black;
+}
+
+menu li:hover {
+    background: #007dd9;
+}
+
+menu li a {
+    display: inline-block;
+    height: 50px;
+    color: black;
+    text-decoration: underline;
+}
+
+menu li a:hover {
+    color: #ededed;
+    text-decoration: underline;
+}
+
+form fieldset {
+    width: 800px;
+}
+
+form legend, form label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form button {
+    height: 50px;
+    font-size: 20px;
+    background: #00b0e5;
+    border-radius: 10px;
+    padding: 10px 15px;
+    line-height: 25px;
+    border: none;
+}
+
+form button:hover{
+    background: #2da6ff;
+    color: #fff;
+}
+
+form input {
+    width: 250px;
+    height: 30px;
+}
+
+form textarea {
+    padding-top: 5px;
+    resize: vertical;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: Tahoma;
+    border: 2px solid #009dff;
+    padding-left: 10px;
+    box-shadow: 1px 1px 1px #898989;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid #00ff1d;
+}
+
