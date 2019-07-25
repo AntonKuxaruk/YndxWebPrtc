@@ -1,0 +1,171 @@
+<style>
+    h2 {
+        position: relative;
+
+        left: 15px;
+        bottom: 10px;
+    }
+
+    h4 {
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(45, 45, 45, 0.1);
+        font-size: 27px;
+        text-transform: uppercase;
+    }
+
+    p {
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    a {
+        color: #000;
+    }
+
+    a:hover {
+        color: #00F;
+    }
+
+    .links {
+        margin-right: 20px;
+        opacity: 0.7;
+    }
+
+    #thumbnail {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    .fullCard {
+        width: 245px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 10px 5px;
+        padding: 4px;
+    }
+
+    .cardContent {
+        padding: 10px;
+    }
+
+    #searchbar {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+
+    section {}
+
+    #navbar {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background-color: #767676;
+    }
+
+    nav ul {
+        margin: 0px;
+        padding: 5px 0px 5px 30px;
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    #left {
+        float: left;
+        width: 50%;
+    }
+
+    #right {
+        float: right;
+        width: 40%;
+    }
+
+    aside,
+    section {
+        padding: 2px;
+        background-color: #ccc;
+    }
+
+    #fst,
+    #snd {
+        width: 30px;
+        height: 30px;
+        float: right;
+        position: relative;
+    }
+
+    .first {
+        background-color: red;
+        position: relative;
+        z-index: 2;
+    }
+
+    .second {
+        background-color: blue;
+        position: relative;
+        
+        z-index: 1;
+    }
+</style>
+
+<body>
+    <section>
+        <form id="searchbar">
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search">
+            <input type="submit" name="submit" value="Go!">
+        </form>
+    </section>
+
+    <div>
+        <header>
+            <h1>Welcome!</h1>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <p>I shift up when the #navbar is fixed to the browser window.</p>
+    </div>
+
+    <div class="fullCard" id="thumbnail">
+        <div class="cardContent">
+            <div class="cardText">
+                <h4>Alphabet</h4>
+                <hr>
+                <p><em>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at
+                        <strong>Stanford University</strong>.</em>
+                </p>
+            </div>
+            <div class="cardLinks">
+                <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a>
+                <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">Sergey Brin</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1>On Being Well-Positioned</h1>
+        <h2>Move me!</h2>
+        <p>I still think the h2 is where it normally sits.</p>
+    </div>
+    <div>
+        <section id="left">
+            <h2>Content</h2>
+            <p>Good stuff</p>
+        </section>
+        <aside id="right">
+            <h2>Sidebar</h2>
+            <p>Links</p>
+        </aside>
+    </div>
+    <div>
+        <div class="first" id="fst"></div>
+        <div class="second" id="snd"></div>
+    </div>
+</body>
